@@ -1,0 +1,25 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css';
+
+:root {
+  --main-color: #1a202c;
+}
+
+body {
+  @apply bg-main-color text-white;
+}
+
+.container {
+  @apply mx-auto px-6;
+}
+
+.header {
+  @apply text-3xl font-bold py-4;
+}
+
+.main {
+  @apply my-8;
+}
+
+.footer {
+  @apply py-4 text-center;
+}
